@@ -10,14 +10,14 @@ function onHttpStart() {
 
 
 app.get("/", function(req,res){
-    res.send("Blog Page<br /><a href='/Blog'>Go to the Blog page</a>");
+    res.sendFile((path.join(__dirname,"public/blog.html")));
 });
 
 app.use(express.static('public'))
 
 
 app.get("/blog", function(req,res){
-    res.sendFile(path.join(__dirname,"public/blog.html"));
+    res.sendFile(__dirname + "/public/blog.html");
   });
 
   app.get("/login", function(req,res){
