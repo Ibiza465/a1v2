@@ -1,14 +1,14 @@
-body{
-    margin-top:20px;
-    background-color:#e9ebee;
+body {
+    margin-top: 20px;
+    background-color: #e9ebee;
 }
 
 .be-comment-block {
-    margin-bottom: 50px !important;
+    margin-bottom: 10px !important;
     border: 1px solid #edeff2;
     border-radius: 2px;
-    padding: 50px 70px;
-    border:1px solid #ffffff;
+    padding: 30px 70px;
+    border: 1px solid #ffffff;
 }
 
 .comments-title {
@@ -85,10 +85,6 @@ body{
     color: #b5b8c2;
     text-align: center;
     line-height: 50px;
-    -webkit-border-top-left-radius: 2px;
-    -webkit-border-bottom-left-radius: 2px;
-    -moz-border-radius-topleft: 2px;
-    -moz-border-radius-bottomleft: 2px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
 }
@@ -113,15 +109,3 @@ body{
 .form-group textarea.form-input {
     height: 150px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
